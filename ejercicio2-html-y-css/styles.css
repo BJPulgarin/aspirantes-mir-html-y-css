@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 5px 5px 10px #444444;
+}
+
+h1{
+    margin: 0;
+}
+#email, #password, #genero{
+    width: 100%;
+    padding: 5px;
+}
+div{
+    padding: 7px;
+}
+#submit{
+    position: relative;
+    min-height: 40px;
+    padding: 0;
+}
+#submitB{
+    position: absolute;
+    right: 0;
+    margin: 7px;
+    padding: 5px 15px;
+}
+@media(min-width:500px){
+    form{
+        width: 300px;
+    }
+}
